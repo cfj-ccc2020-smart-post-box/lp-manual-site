@@ -1,0 +1,383 @@
+html{
+  background: #FBF9FA;
+}
+.all{
+  margin: 50px;
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+}
+ul{
+  list-style: none;
+  font-weight: lighter;
+}
+li{
+  margin-bottom: 20px;
+}
+ul li a {
+  color: #F1F1F1;
+  transition: color .3s;
+}
+
+ul li a:hover {
+  color: white;
+}
+
+.header{
+  display: flex;
+  position: relative;
+}
+
+.logomenu{
+  margin-left: 20px;
+}
+.logomenu img{
+  margin-left: 30px;
+}
+.menubar{
+  background-color: #49B1FD;
+  border-radius: 5%;
+  padding: 30px 20px 20px 20px;
+  width: 180px;
+  text-align: center;
+  position: fixed;
+}
+
+#logo{
+  width: 100px;
+  height: 100px;
+}
+
+#top{
+  width: 1000px;
+  margin-left: 150px;
+}
+
+.headline{
+  position: absolute;
+  top: 80%;
+  left: 70%;
+  color: white;
+}
+
+.new-center{
+  margin-left: 300px;
+}
+
+.about h1 {
+  margin: 130px 0 80px 0;
+  font-size: 40px;
+
+}
+
+.about{
+  text-align: center;
+}
+
+.feature{
+  text-align: center;
+  margin-top: 100px;
+}
+.feature h1{
+  font-size: 40px;
+}
+.feature-container{
+  display: flex;
+  margin-left: 80px;
+}
+
+.f-ele{
+  width: 250px;
+  text-align: center;
+  margin: 50px 20px;
+}
+
+.f-ele img{
+  border-radius: 50%;
+  height: 200px;
+}
+
+.f-ele h3{
+  font-size: 24px;
+}
+
+.spec{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.spec h1{
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+table{
+  width: 100%;
+  font-size: 16px;
+  height: 200px;
+}
+
+th{
+  width: 20%;
+  margin: 20px 0;
+}
+
+td{
+  width: 80%;
+}
+
+.bg-black{
+  background: rgba(218,218,218,1);
+}
+
+.story{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.story h1{
+  font-size: 40px;
+}
+
+.upper{
+  width: 100%;
+  display: flex;
+}
+.up-pictures-up{
+  display: flex;
+  width: 100%;
+
+}
+
+.story-1{
+  background: #49B1FD;
+  padding: 20px;
+}
+
+.up-pictures-bottom{
+  display: flex;
+  width: 100%;
+}
+
+.team{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.team h1{
+  font-size: 40px;
+}
+
+.to-margin{
+  width: 33%;
+  
+}
+
+.mem-up .to-margin img{
+  width: 100%
+}
+
+.mem-bottom img{
+  width: 100%
+}
+
+.mem-up{
+  display: flex;
+}
+.arrow{
+  background: #49B1FD;
+  padding: 100px;
+  width: 13%
+}
+
+.mem-bottom{
+  display: flex;
+}
+
+.to-margin{
+  margin: 10px
+}
+
+#page_top{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  
+  margin: 0
+}
+#page_top a{
+  position: relative;
+  display: block;
+  background: #49B1FD;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  left: 100px;
+  bottom: 100px;
+  text-decoration: none;
+}
+
+/* 擬似要素の練習 */
+
+.to-margin{
+  position: relative;
+
+}
+
+.rinkei::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+  content: "Rinkei \Aハードウェア担当";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  font-size: 23px;
+  opacity: 0;
+  color: #fff;
+  display: inline-block;
+  white-space: pre;
+}
+.waricoma::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+  content: "Waricoma \Aソフトウェア担当";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  font-size: 23px;
+  opacity: 0;
+  color: #fff;
+  display: inline-block;
+  white-space: pre;
+}
+
+.anjyu::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+  content: "Anjyu \Aデザイナー";
+  white-space: pre;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  font-size: 23px;
+  opacity: 0;
+  color: #fff;
+  display: inline-block;
+}
+
+.ryuji::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+  content: "Ryuji \Aフロントエンド担当";
+  white-space: pre;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  font-size: 23px;
+  opacity: 0;
+  color: #fff;
+  display: inline-block;
+}
+
+.yuri::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+  content: "Yuri \Aマネジメント担当";
+  white-space: pre;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  font-size: 23px;
+  opacity: 0;
+  color: #fff;
+  display: inline-block;
+}
+
+.to-margin:hover::before{
+  opacity: 1;
+  transition-duration: 0.3s;
+}
+.rinkei{
+  position: relative;
+}
+.icon{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  font-size: 50px;
+  justify-content: space-between;
+  margin: 40px 20px 0 0;
+  opacity: 1;
+  color: #fff;
+}
+
+div.rinkei ul.icon li {
+  opacity: 0;
+}
+div.rinkei:hover ul.icon li {
+  opacity: 0.6;
+}
+div.rinkei ul.icon li:hover {
+  opacity: 1;
+}
+.waricoma{
+  position: relative;
+}
+div.waricoma ul.icon li {
+  opacity: 0;
+}
+div.waricoma:hover ul.icon li {
+  opacity: 0.6;
+}
+div.waricoma ul.icon li:hover {
+  opacity: 1;
+}
+
+div.anjyu ul.icon li {
+  opacity: 0;
+}
+div.anjyu:hover ul.icon li {
+  opacity: 0.6;
+}
+div.anjyu ul.icon li:hover {
+  opacity: 1;
+}
+
+div.ryuji ul.icon li {
+  opacity: 0;
+}
+div.ryuji:hover ul.icon li {
+  opacity: 0.6;
+}
+div.ryuji ul.icon li:hover {
+  opacity: 1;
+}
+
+div.yuri ul.icon li {
+  opacity: 0;
+}
+div.yuri:hover ul.icon li {
+  opacity: 0.6;
+}
+div.yuri ul.icon li:hover {
+  opacity: 1;
+}
