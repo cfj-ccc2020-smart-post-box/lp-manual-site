@@ -854,6 +854,7 @@ button{
   margin-top: 100px;
   width: 70%;
   margin-left: 200px
+  padding-bottom: 50px;
 }
 
 .result h3{
@@ -947,7 +948,7 @@ table td {
 
 .footer li a{
   padding: 10px 20px;
-  margin-left: 150px;
+  margin-left: 130px;
 }
 
 .footer ul{
