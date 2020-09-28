@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>最適なプランを見つける</title>
+</head>
+<body>
+  <div class="all">
+    <div class="find-top">
+      <img src="./img/cat-logo.jpg" alt="logo" width="100px" height="100px">
+      <a href="./index.html" id="toHome">Homeへ</a>
+    </div>
+    
+    <div class="center2">
+      <h1>スマートポストの最適モデルを探す</h1>
+
+      <div class="choice-box">
+        <div class="first para">
+          <p>ポストの開閉口に蓋はありますか？</p>
+          <div class="y-n b1">
+            <button type="button" id="button1" class="tohov">はい</button>
+            <button type="button" id="button2" class="tohov">いいえ</button>
+          </div>
+          
+        </div>
+        <div class="second para">
+          <p>電池の交換の頻度はどれぐらいがいいですか？</p>
+          <div class="y-n b2">
+            <button type="button" id="button3" class="tohov">3ヶ月くらい</button>
+            <button type="button" id="button4" class="tohov">1年くらい</button>
+          </div>
+        </div>
+        <div class="third para">
+          <p>ポストまでご自宅もしくはオフィスのWi-Fiは届きますか？</p>
+          <div class="y-n b3">
+            <button type="button" id="button5" class="tohov">はい</button>
+            <button type="button" id="button6" class="tohov">いいえ</button>
+          </div>
+        </div>
+        <div class="forth para">
+          <p>投函された郵便物の写真は撮影しますか？</p>
+          <div class="y-n b4">
+            <button type="button" id="button7" class="tohov">いいえ</button>
+            <button type="button" id="button8" class="tohov">はい</button>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" id="search">探す</button>
+
+      <div class="result">
+        <h3>お探しのモデルは...</h3>
+        <p id="model">SP-E-M-S-W</p>
+
+        <div class="res-up">
+          <h2>プラン</h2>
+          <div class="res-ele1">
+            <h4>Standard</h4>
+            <h5>¥1,458</h5>
+            <ul>
+              <li>投函を通知いたします</li>
+              <li>バッテリーのサイズが選べます</li>
+              <div class="addition"></div>
+            </ul>
+          </div>
+        </div>
+
+        <div class="res-bot">
+          <h2>詳細</h2>
+          <div class="res-ele2">
+            <p id="sensor">センサー: 磁気センサー</p>
+            <p id="battery">バッテリーサイズ: Small</p>
+            <p id="connection">接続: Wi-Fiのみ</p>
+            <p id="shooting">定期的なポスト内撮影: なし</p>
+          </div>
+        </div>
+
+        <table>
+          <tr id="row-1">
+            <th>センサー</th><td>リードスイッチx5 ピンヘッダx40</td>
+          </tr>
+          <tr id="row-2">
+            <th>本体</th><td>ピンソケットx42 ESP-WROOM-2 基板</td>
+          </tr>
+          <tr id="row-1">
+            <th>バッテリー</th><td>単三電池ボックス</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <ul>
+        <li><a href="./index.html">ホーム</a></li>
+        <li><a href="./index.html">お見積もり</a></li>
+        <li><a href="./index.html">制作ストーリー</a></li>
+        <li class="cr">Copyright@2020 ARROW | スマートポスト</li>
+        <button id="totop">↑</button>
+      </ul>
+
+    </div>
+    
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
