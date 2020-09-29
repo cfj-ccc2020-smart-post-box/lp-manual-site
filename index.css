@@ -5,7 +5,7 @@ html{
 }
 body{
   margin: 0;
-  font-family: "Noto Sans", "Helvetica Neue", sans-serif bold,Arial, Helvetica;
+  font-family: "Noto Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 a{
   text-decoration: none;
@@ -849,9 +849,8 @@ button{
 
 .result{
   border: 3px solid #F2E744;
-  margin-top: 100px;
+  margin: 100px auto auto 225px;
   width: 70%;
-  margin-left: 200px;
   padding-bottom: 50px;
 }
 
@@ -966,6 +965,7 @@ table td {
   margin-left: 100px;
 }
 
+/* 制作ストーリー */
 .mk-story{
   margin: 200px;
 }
@@ -974,10 +974,9 @@ table td {
   display: flex;
 }
 #text1{
-  background: #F1E987
-  ;
+  background: #F1E987;
   width: 60%;
-  height: 300px;
+  height: 320px;
   text-align: left;
   padding: 20px;
 }
@@ -999,7 +998,7 @@ table td {
 }
 #text2{
   width: 580px;
-  height: 550px;
+  height: 500px;
   background: #F1E987;
 }
 #text2 p{
@@ -1015,7 +1014,7 @@ table td {
 #text3{
   background: #F1E987;
   width: 460px;
-  height: 810px;
+  height: 760px;
   text-align: left;
   padding: 30px;
 }
@@ -1041,7 +1040,7 @@ table td {
 
 #text4{
   background: #F1E987;
-  height: 484px;
+  height: 495px;
   text-align: left;
   padding: 30px;
 }
@@ -1110,4 +1109,63 @@ table td {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 0;
+}
+.mk-story a{
+  color: #000;
+  text-decoration: underline;
+}
+.mk-story span{
+  font-weight: bold;
+}
+.num{
+  z-index: 500;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #F1E987;
+  text-align:center;
+  line-height: 30px;
+}
+#num1{
+  position: absolute;
+  right: 230px;
+  bottom: 0px;
+}
+#num2{
+  position: absolute;
+  bottom: -100px;
+  left: 230px;
+}
+#num3{
+  position: absolute;
+  right: 600px;
+  bottom: -900px;
+}
+#num4{
+  position: absolute;
+  bottom: -1100px;
+  right: 525px;
+}
+#num5{
+  position: absolute;
+  bottom: -1625px;
+  left: 250px;
+}
+#num6{
+  position: absolute;
+  left: 525px;
+  bottom: -1970px;
+}
+#num7{
+  position: absolute;
+  right: 250px;
+}
+#num8{
+  position: absolute;
+  left: 250px;
+}
+#num9{
+  position: absolute;
+  right: 225px;
+  bottom: -2380px;
 }
