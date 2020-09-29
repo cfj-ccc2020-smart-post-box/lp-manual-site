@@ -347,7 +347,7 @@ video{
 }
 .find{
   text-align: center;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .find-model{
   color: black;
@@ -439,7 +439,7 @@ video{
   width: 35%;
 }
 .more a{
-  margin:100px 0 0 100px;
+  margin:100px 0 0 30px;
   color: #333333;
   transition-duration: .5s;
 }
@@ -774,7 +774,7 @@ div.yuri ul.icon li:hover {
   margin: 50px;
 }
 #toHome{
-  margin-left: 1100px;
+  margin-left: 1060px;
   color: #333333;
   padding-top: 50px
 }
