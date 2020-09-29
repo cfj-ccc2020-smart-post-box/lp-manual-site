@@ -853,7 +853,7 @@ button{
   border: 3px solid #F2E744;
   margin-top: 100px;
   width: 70%;
-  margin-left: 200px
+  margin-left: 200px;
   padding-bottom: 50px;
 }
 
@@ -966,4 +966,150 @@ table td {
 
 .cr{
   margin-left: 100px;
+}
+
+.mk-story{
+  margin: 200px;
+}
+
+.story-1{
+  display: flex;
+}
+#text1{
+  background: #F1E987
+  ;
+  width: 60%;
+  height: 300px;
+  text-align: left;
+  padding: 20px;
+}
+#text1 h3{
+  font-size: 24px;
+  font-weight: lighter;
+  margin: 0;
+  margin-left: 20px
+}
+#text1 p{
+  padding: 20px 20px 0 20px;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.story-2{
+  display: flex;
+}
+#text2{
+  width: 580px;
+  height: 550px;
+  background: #F1E987;
+}
+#text2 p{
+  margin: 0;
+  text-align: left;
+  padding: 30px;
+}
+
+.story-con img{
+  vertical-align: top;
+}
+
+#text3{
+  background: #F1E987;
+  width: 460px;
+  height: 810px;
+  text-align: left;
+  padding: 30px;
+}
+#text3 h3{
+  font-size: 24px;
+  margin: 0;
+  font-weight: lighter;
+}
+#text3 p{
+  font-size: 14px;
+}
+
+.story-3{
+  display: flex;
+}
+
+.st3-left video{
+  filter: none;
+  vertical-align: top;
+}
+
+
+
+#text4{
+  background: #F1E987;
+  height: 484px;
+  text-align: left;
+  padding: 30px;
+}
+
+#text4 h3{
+  font-size: 24px;
+  font-weight: lighter;
+  margin: 0;
+  margin-left: 20px
+}
+#text4 p{
+  padding: 20px 20px 0 20px;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.st3-left img{
+  vertical-align: top;
+}
+
+.st3-right img{
+  text-align: left;
+  vertical-align: top;
+}
+
+#story-4{
+  display: flex;
+}
+
+#story-4 video{
+  filter: none;
+  vertical-align: top;
+}
+
+#story-5{
+  display: flex;
+}
+
+#story-5 img{
+  vertical-align: top;
+  filter: none;
+  box-shadow: none;
+}
+
+#story-5 video{
+  filter: none;
+  vertical-align: top;
+}
+
+.st-comment{
+  width: 100%;
+  height: 250px;
+  background: #F1E987;
+  text-align: left;
+}
+.st-comment h3{
+  font-size: 24px;
+  font-weight: lighter;
+  margin: 0;
+  margin-left: 40px;
+  padding-top: 30px;
+}
+.st-comment p{
+  padding: 30px 100px;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
