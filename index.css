@@ -1,9 +1,11 @@
+/* 全体設定 */
 html{
   background: #FBF9FA;
   margin: 0;
 }
 body{
   margin: 0;
+  font-family: "Noto Sans", "Helvetica Neue", sans-serif bold,Arial, Helvetica;
 }
 a{
   text-decoration: none;
@@ -22,11 +24,11 @@ ul li a {
   transition: color .3s;
   color: #000;
 }
-
 video{
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .4));
 }
 
+/* トップ */
 .menubar a:hover {
   background: #F2E744;
   transition: .7s;
@@ -37,28 +39,26 @@ video{
   background-size: cover;
 }
 .logomenu img{
-  margin-left: 30px;
+  margin: 30px 0 0 50px;
   position: fixed;
   z-index: 1000;
   top: 20px;
-  
 }
 .menubar{
   background-color: #ffffff;
   border-radius: 5%;
-  padding: 30px 20px 20px 20px;
-  width: 180px;
+  padding: 10px 20px 20px 20px;
+  width: 190px;
   text-align: center;
   position: fixed;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .1));
   z-index: 1000;
-  top: 130px;
-  left: 20px;
+  top: 160px;
+  left: 30px;
 }
 .menubar li{
   list-style: none;
 }
-
 #logo{
   width: 100px;
   height: 100px;
@@ -74,7 +74,6 @@ video{
   position: fixed;
   
 }
-
 .headline{
   position: absolute;
   top: 80%;
@@ -82,10 +81,13 @@ video{
   color: white;
 }
 
+/* コンテンツ */
 .center{
   margin-left: 300px;
   margin-right: 50px;
 }
+
+/* 漫画 */
 .post-it {
   margin-top: 300px;
   text-align: center;
@@ -93,7 +95,6 @@ video{
   height: 500px;
   background: #FBF9FA;
 }
-
 .post-it h1{
   padding: 20px 30px;
   background: #F2E744;
@@ -105,7 +106,6 @@ video{
   font-size: 35px;
   margin: 130px 0 80px 0;
 }
-
 .post-it h1::after{
   content: "●";
   color: #FBF9FA;
@@ -114,6 +114,7 @@ video{
   right: 20px;
 }
 
+/* スマートポストとは */
 .about h1 {
   margin: 130px 0 80px 0;
   font-size: 40px;
@@ -125,7 +126,6 @@ video{
   display: inline-block;
   position: relative;
 }
-
 .about h1::after{
   content: "●";
   color: #FBF9FA;
@@ -133,15 +133,12 @@ video{
   top: 25%;
   right: 20px;
 }
-
-
 .about{
   text-align: center;
   position: relative;
   height: 2000px;
   background: #F3F3F3;
 }
-
 .comment{
   display: block;
   height: 400px
@@ -155,6 +152,7 @@ video{
   top: 300px;
   right: 200px;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .4));
+  text-align: left;
 }
 #com-1::after{
   position: absolute;
@@ -166,7 +164,6 @@ video{
   width: 0;
   height: 0;
 }
-
 #com-2{
   width: 200px;
   padding: 20px;
@@ -176,6 +173,7 @@ video{
   top: 400px;
   left: 500px;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .4));
+  text-align: left;
 }
 #com-2::after{
   position: absolute;
@@ -187,7 +185,6 @@ video{
   width: 0;
   height: 0;
 }
-
 #com-3{
   width: 200px;
   padding: 20px;
@@ -197,8 +194,8 @@ video{
   top: 500px;
   right: 200px;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .4));
+  text-align: left;
 }
-
 #com-3::after{
   position: absolute;
   content: '';
@@ -209,39 +206,32 @@ video{
   width: 0;
   height: 0;
 }
-
 #config{
   font-size: 20px;
   color: grey;
 }
-
-
 .feature-container{
   display: flex;
   margin-left: 80px;
 }
-
 .f-ele{
   width: 250px;
   text-align: center;
   margin: 50px 20px;
   position: relative;
 }
-
 .f-ele p{
-  font-size: 13px;;
+  font-size: 13px;
+  text-align: left;
 }
-
 .f-ele img{
   border-radius: 50%;
   height: 250px;
   width: 250px;
 }
-
 .f-ele h3{
   font-size: 24px;
 }
-
 .ele1::before{
   content: "01";
   position: absolute;
@@ -251,7 +241,6 @@ video{
   top: -5px;
   left: 6px;
 }
-
 .ele2::before{
   content: "02";
   position: absolute;
@@ -261,7 +250,6 @@ video{
   bottom: 180px;
   left: 20px;
 }
-
 .ele3::before{
   content: "03";
   position: absolute;
@@ -272,12 +260,12 @@ video{
   right: -10px;
 }
 
+/* お見積もり */
 .price{
   text-align: center;
   background: #FBF9FA;
   padding-bottom: 100px;
 }
-
 .price h1 {
   margin: 100px 0 80px 0;
   font-size: 40px;
@@ -289,7 +277,6 @@ video{
   display: inline-block;
   position: relative;
 }
-
 .price h1::after{
   content: "●";
   color: #FBF9FA;
@@ -297,11 +284,9 @@ video{
   top: 25%;
   right: 20px;
 }
-
 .plan{
   display: flex;
 }
-
 .plan-ele{
   text-align: center;
   width: 33%;
@@ -315,59 +300,46 @@ video{
   font-size: 40px;
   margin: 0;
 }
-
 .plan-y{
   background:#F2E744;
 }
-
 .plan-details{
   margin: 100px 20px 0 20px;
 }
-
 .plan-details li{
   font-size: 12px;
   text-align: left;
   margin: 0;
 }
-
 .plan-ele h2{
   font-size: 43px;;
 }
-
 .plan-ele h2::before{
   content: "¥";
   color: #000;
   font-size: 30px;
 }
-
 .plan-ele p{
   position: absolute;
   top: 45%;
   right: 30px;
 }
-
 .find{
   text-align: center;
+  margin-top: 20px;
 }
-
 .find-model{
   color: black;
   transition-duration: 1s;
   display: inline;
 }
-
 .find-model:hover{
   margin-left: 20px;
 }
-
-
-
 .arrows{
   position: relative;
-  margin-top: 5px;
-  
+  margin-top: 20px;
 }
-
 #up{
   position: absolute;
   background: #F2E744;
@@ -376,7 +348,6 @@ video{
   top: 0;
   left: 38%;
 }
-
 #right{
   position: absolute;
   background: #F2E744;
@@ -386,7 +357,6 @@ video{
   left: 650px;
   transform: skew(135deg);
 }
-
 #bottom{
   position: absolute;
   background: #F2E744;
@@ -394,27 +364,27 @@ video{
   height: 35px;
   top: -15px;
   left: 640px;
-  
+}
+.attention{
+  margin-top: 50px;
 }
 
+/* スペック */
 .spec{
   margin-top: 100px;
   text-align: center;
 }
-
 .spec h1{
   font-size: 40px;
   margin-bottom: 50px;
 }
 
-
+/* ストーリー */
 .story{
   background: #f3f3f3;
   text-align: center;
   padding-bottom: 100px;
 }
-
-
 .story h1 {
   margin: 100px 0 80px 0;
   font-size: 40px;
@@ -426,7 +396,6 @@ video{
   display: inline-block;
   position: relative;
 }
-
 .story h1::after{
   content: "●";
   color: #FBF9FA;
@@ -434,11 +403,9 @@ video{
   top: 25%;
   right: 20px;
 }
-
 .story-ele{
   display: flex;
 }
-
 .word{
   width: 40%;
   padding: 100px 50px;
@@ -447,21 +414,17 @@ video{
   color: #333333;
   text-align: left;
 }
-
 .phone img{
   width: 50%;
 }
-
 .more a{
   margin:100px 0 0 100px;
   color: #333333;
   transition-duration: .5s;
 }
-
 .more a:hover{
   padding-left: 30px;
 }
-
 #up2{
   position: absolute;
   background: #F2E744;
@@ -470,7 +433,6 @@ video{
   top: 0;
   left: 29%;
 }
-
 #right2{
   position: absolute;
   background: #F2E744;
@@ -480,7 +442,6 @@ video{
   left: 235px;
   transform: skew(135deg);
 }
-
 #bottom2{
   position: absolute;
   background: #F2E744;
@@ -490,11 +451,11 @@ video{
   left: 226px;
   
 }
-
 .phone{
   margin-top: 150px
 }
 
+/* 使ってみての感想 */
 .review{
   text-align: center;
   background: #FBF9FA;
@@ -511,7 +472,6 @@ video{
   display: inline-block;
   position: relative;
 }
-
 .review h1::after{
   content: "●";
   color: #FBF9FA;
@@ -519,7 +479,6 @@ video{
   top: 25%;
   right: 20px;
 }
-
 .re-up{
   position: relative;
 }
@@ -547,7 +506,6 @@ video{
   top: 100px;
   left: 18%;
 }
-
 #re-up-com1{
   width: 300px;
   height: 150px;
@@ -558,6 +516,7 @@ video{
   top: 10px;
   left: 500px;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .4));
+  text-align: left;
 }
 #re-up-com1::after{
   position: absolute;
@@ -569,17 +528,14 @@ video{
   width: 0;
   height: 0;
 }
-
 .re-bot{
   position: relative;
 }
-
 .person2{
   position: absolute;
   top: 0;
   right: 40%;
 }
-
 #re-up-com2{
   width: 300px;
   height: 150px;
@@ -590,6 +546,7 @@ video{
   top: 10px;
   right: 500px;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .4));
+  text-align: left;
 }
 #re-up-com2::after{
   position: absolute;
@@ -602,30 +559,25 @@ video{
   height: 0;
 }
 
+/* arrowチーム */
 .team{
   padding-top: 100px;
   text-align: center;
   background: #f3f3f3;
-  padding-bottom: 100px;
 }
-
 .team h1{
   font-size: 40px;
 }
-
 .to-margin{
   width: 33%;
   
 }
-
 .mem-up .to-margin img{
   width: 100%
 }
-
 .mem-bottom img{
   width: 100%
 }
-
 .mem-up{
   display: flex;
 }
@@ -635,16 +587,17 @@ video{
   width: 13%;
   height: 146px;
 }
-
+.arrow p{
+  font-size: 10px;
+  text-align: left;
+}
 .mem-bottom{
   display: flex;
 }
-
 #page_top{
   position: absolute;
   width: 50px;
   height: 50px;
-  
   margin: 0
 }
 #page_top a{
@@ -660,12 +613,9 @@ video{
 }
 
 /* 擬似要素の練習 */
-
 .to-margin{
   position: relative;
-
 }
-
 .rinkei::before{
   position: absolute;
   top: 0;
@@ -673,7 +623,7 @@ video{
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,.5);
-  content: "Rinkei \Aハードウェア担当";
+  content: "\ARinkei \Aハードウェア担当";
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
   font-size: 23px;
@@ -689,7 +639,7 @@ video{
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,.5);
-  content: "Waricoma \Aソフトウェア担当";
+  content: "\AWaricoma \Aソフトウェア担当";
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
   font-size: 23px;
@@ -698,7 +648,6 @@ video{
   display: inline-block;
   white-space: pre;
 }
-
 .anjyu::before{
   position: absolute;
   top: 0;
@@ -706,7 +655,7 @@ video{
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,.5);
-  content: "Anjyu \Aデザイナー";
+  content: "\A Anjyu Style \Aデザイナー";
   white-space: pre;
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
@@ -715,7 +664,6 @@ video{
   color: #fff;
   display: inline-block;
 }
-
 .ryuji::before{
   position: absolute;
   top: 0;
@@ -723,7 +671,7 @@ video{
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,.5);
-  content: "Ryuji \Aフロントエンド担当";
+  content: "\A Ryuji \Aフロントエンド担当";
   white-space: pre;
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
@@ -732,7 +680,6 @@ video{
   color: #fff;
   display: inline-block;
 }
-
 .yuri::before{
   position: absolute;
   top: 0;
@@ -740,7 +687,7 @@ video{
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,.5);
-  content: "Yuri \Aマネジメント担当";
+  content: "\A YURI យូរី \Aマネジメント担当";
   white-space: pre;
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
@@ -749,7 +696,6 @@ video{
   color: #fff;
   display: inline-block;
 }
-
 .to-margin:hover::before{
   opacity: 1;
   transition-duration: 0.3s;
@@ -768,11 +714,10 @@ video{
   opacity: 1;
   color: #fff;
 }
-
 .icon{
   list-style: none;
 }
-
+/* りんけいさん */
 div.rinkei ul.icon li {
   opacity: 0;
 }
@@ -782,6 +727,7 @@ div.rinkei:hover ul.icon li {
 div.rinkei ul.icon li:hover {
   opacity: 1;
 }
+/* 割さん */
 .waricoma{
   position: relative;
 }
@@ -794,7 +740,6 @@ div.waricoma:hover ul.icon li {
 div.waricoma ul.icon li:hover {
   opacity: 1;
 }
-
 div.anjyu ul.icon li {
   opacity: 0;
 }
@@ -804,7 +749,7 @@ div.anjyu:hover ul.icon li {
 div.anjyu ul.icon li:hover {
   opacity: 1;
 }
-
+/* りゅうじ */
 div.ryuji ul.icon li {
   opacity: 0;
 }
@@ -814,7 +759,7 @@ div.ryuji:hover ul.icon li {
 div.ryuji ul.icon li:hover {
   opacity: 1;
 }
-
+/* ゆり */
 div.yuri ul.icon li {
   opacity: 0;
 }
@@ -825,7 +770,7 @@ div.yuri ul.icon li:hover {
   opacity: 1;
 }
 
-
+/* モデル探すのページ */
 .find-top{
   display: flex;
   margin: 50px;
@@ -909,6 +854,7 @@ button{
   margin-top: 100px;
   width: 70%;
   margin-left: 200px
+  padding-bottom: 50px;
 }
 
 .result h3{
@@ -992,7 +938,7 @@ table td {
 .footer{
   background: #F2E744;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .footer ul{
   display: flex;
@@ -1002,7 +948,7 @@ table td {
 
 .footer li a{
   padding: 10px 20px;
-  margin-left: 150px;
+  margin-left: 130px;
 }
 
 .footer ul{
