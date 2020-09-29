@@ -60,7 +60,7 @@ video{
   list-style: none;
 }
 #logo{
-  width: 100px;
+  width: 160px;
   height: 100px;
   left: 10px;
 }
@@ -97,7 +97,7 @@ video{
 }
 .post-it h1{
   padding: 20px 30px;
-  background: #F2E744;
+  background: #F0E14C;
   vertical-align: middle;
   padding: 20px 100px;/*文字周りの余白*/
   border-radius: 0 50px 50px 0;
@@ -119,7 +119,7 @@ video{
   margin: 130px 0 80px 0;
   font-size: 40px;
   padding: 20px 30px;
-  background: #F2E744;
+  background: #F0E14C;
   vertical-align: middle;
   padding: 20px 100px;/*文字周りの余白*/
   border-radius: 0 50px 50px 0;
@@ -141,7 +141,7 @@ video{
 }
 .comment{
   display: block;
-  height: 400px
+  height: 400px;
 }
 #com-1{
   width: 200px;
@@ -270,7 +270,7 @@ video{
   margin: 100px 0 80px 0;
   font-size: 40px;
   padding: 20px 30px;
-  background: #F2E744;
+  background: #F0E14C;
   vertical-align: middle;
   padding: 20px 100px;/*文字周りの余白*/
   border-radius: 0 50px 50px 0;
@@ -301,7 +301,7 @@ video{
   margin: 0;
 }
 .plan-y{
-  background:#F2E744;
+  background:#F0E14C;
 }
 .plan-details{
   margin: 100px 20px 0 20px;
@@ -342,7 +342,7 @@ video{
 }
 #up{
   position: absolute;
-  background: #F2E744;
+  background: #F0E14C;
   width: 250px;
   height: 3px;
   top: 0;
@@ -350,20 +350,20 @@ video{
 }
 #right{
   position: absolute;
-  background: #F2E744;
+  background: #F0E14C;
   width: 3px;
   height: 20px;
   top: 0;
-  left: 650px;
+  left: 653px;
   transform: skew(135deg);
 }
 #bottom{
   position: absolute;
-  background: #F2E744;
+  background: #F0E14C;
   width: 3px;
   height: 35px;
   top: -15px;
-  left: 640px;
+  left: 643px;
 }
 .attention{
   margin-top: 50px;
@@ -389,7 +389,7 @@ video{
   margin: 100px 0 80px 0;
   font-size: 40px;
   padding: 20px 30px;
-  background: #F2E744;
+  background: #F0E14C;
   vertical-align: middle;
   padding: 20px 100px;/*文字周りの余白*/
   border-radius: 0 50px 50px 0;
@@ -407,7 +407,7 @@ video{
   display: flex;
 }
 .word{
-  width: 40%;
+  width: 50%;
   padding: 100px 50px;
   margin-left: 50px;
   line-height: 35px;
@@ -415,7 +415,7 @@ video{
   text-align: left;
 }
 .phone img{
-  width: 50%;
+  width: 35%;
 }
 .more a{
   margin:100px 0 0 100px;
@@ -427,7 +427,7 @@ video{
 }
 #up2{
   position: absolute;
-  background: #F2E744;
+  background: #F0E14C;
   width: 150px;
   height: 3px;
   top: 0;
@@ -435,7 +435,7 @@ video{
 }
 #right2{
   position: absolute;
-  background: #F2E744;
+  background: #F0E14C;
   width: 3px;
   height: 20px;
   top: 0;
@@ -444,7 +444,7 @@ video{
 }
 #bottom2{
   position: absolute;
-  background: #F2E744;
+  background: #F0E14C;
   width: 3px;
   height: 35px;
   top: -15px;
@@ -452,7 +452,7 @@ video{
   
 }
 .phone{
-  margin-top: 150px
+  margin-top: 50px;
 }
 
 /* 使ってみての感想 */
@@ -460,12 +460,13 @@ video{
   text-align: center;
   background: #FBF9FA;
   padding-bottom: 100px;
+  height: 1300px;
 }
 .review h1 {
   margin: 100px 0 80px 0;
   font-size: 40px;
   padding: 20px 30px;
-  background: #F2E744;
+  background: #F0E14C;
   vertical-align: middle;
   padding: 20px 100px;
   border-radius: 0 50px 50px 0;
@@ -485,79 +486,29 @@ video{
 .person1{
   position: absolute;
   top: 0;
-  left: 18%;
+  left: 10%;
 }
-.circle{
+
+.comment1{
   position: absolute;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background: #007bff;
-  top: 0;
-  left: 20px;
-}
-.triangle{
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 100px 173.2px 100px;
-  border-color: transparent transparent #007bff transparent;
   top: 100px;
-  left: 18%;
-}
-#re-up-com1{
-  width: 300px;
-  height: 150px;
-  padding: 20px;
-  position: absolute;
-  background: #fff;
-  border-radius: 25px;
-  top: 10px;
-  left: 500px;
-  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .4));
-  text-align: left;
-}
-#re-up-com1::after{
-  position: absolute;
-  content: '';
-  top: 50%;
-  right: 100%;
-  border: 15px solid transparent;
-  border-right: 30px solid #fff;
-  width: 0;
-  height: 0;
+  right: 10%;
 }
 .re-bot{
   position: relative;
 }
 .person2{
   position: absolute;
-  top: 0;
-  right: 40%;
+  top: 500px;
+  right: 10%;
 }
-#re-up-com2{
-  width: 300px;
-  height: 150px;
-  padding: 20px;
+
+.comment2{
   position: absolute;
-  background: #FFF9A4;
-  border-radius: 25px;
-  top: 10px;
-  right: 500px;
-  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .4));
-  text-align: left;
+  top: 600px;
+  left: 10%;
 }
-#re-up-com2::after{
-  position: absolute;
-  content: '';
-  top: 50%;
-  left: 100%;
-  border: 15px solid transparent;
-  border-left: 30px solid #FFF9A4;
-  width: 0;
-  height: 0;
-}
+
 
 /* arrowチーム */
 .team{
@@ -582,7 +533,7 @@ video{
   display: flex;
 }
 .arrow{
-  background:#F2E744;
+  background:#F0E14C;
   padding: 107px 109px;
   width: 13%;
   height: 146px;
@@ -936,7 +887,7 @@ table td {
 }
 
 .footer{
-  background: #F2E744;
+  background: #F0E14C;
   width: 100%;
   margin-top: 80px;
 }
