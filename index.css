@@ -515,6 +515,11 @@ video{
   top: 100px;
   right: 10%;
 }
+.comment1 p{
+  position: absolute;
+  top: 100px;
+  left: 20%;
+}
 .re-bot{
   position: relative;
 }
@@ -529,6 +534,12 @@ video{
   top: 600px;
   left: 10%;
 }
+.comment2 p{
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
 
 
 /* arrowチーム */
