@@ -28,6 +28,9 @@ video{
 }
 
 /* トップ */
+.logomenu{
+  z-index: 3000;
+}
 .menubar a:hover {
   background: #F2E744;
   transition: .7s;
@@ -40,7 +43,7 @@ video{
 .logomenu img{
   margin: 30px 0 0 50px;
   position: fixed;
-  z-index: 2000;
+  z-index: 1000;
   top: 20px;
 }
 .menubar{
@@ -51,7 +54,6 @@ video{
   text-align: center;
   position: fixed;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .1));
-  z-index: 3000;
   top: 160px;
   left: 30px;
 }
@@ -68,12 +70,11 @@ video{
 }
 .bg{
   height: 500px;
-  z-index: -1000;
 }
 #top{
   width: 100%;
   height: 780px;
-  position: fixed;
+  position: absolute;
   
 }
 .headline{
@@ -86,12 +87,11 @@ video{
 .proper{
   width: 200px;
   height: 200px;
-  top: 22%;
+  top: 32%;
   left: 20%;
-  position: fixed;
+  position: absolute;
   text-align: center;
   padding: 15px;
-  z-index: 1px;
 }
 .proper p{
   font-size: 20px;
@@ -111,19 +111,19 @@ video{
 .center{
   margin-left: 300px;
   margin-right: 50px;
-  position: relative;
-  z-index: 1000;
+  
 }
 
 /* 漫画 */
 .post-it {
   margin-top: 300px;
   text-align: center;
+  z-index: 1000;
   height: 100%;
   width: 100%;
   background: #FBF9FA;
+  z-index: 1000px;
   position: relative;
-  z-index: 1000;
 }
 .post-it h1{
   padding: 20px 30px;
@@ -146,7 +146,6 @@ video{
 .manga img{
   margin-top: 80px;
   margin-bottom: 80px;
-  position: relative;
 }
 
 /* スマートポストとは */
@@ -173,6 +172,7 @@ video{
   position: relative;
   height: 1700px;
   background: #F3F3F3;
+  z-index: 1000px;
 }
 .comment{
   display: block;
@@ -303,6 +303,7 @@ video{
   background: #FBF9FA;
   padding-bottom: 100px;
   position: relative;
+  z-index: 1000px;
 }
 .price h1 {
   margin: 100px 0 80px 0;
@@ -423,6 +424,7 @@ video{
   text-align: center;
   padding-bottom: 100px;
   position: relative;
+  z-index: 1000px;
 }
 .story h1 {
   margin: 100px 0 80px 0;
@@ -501,6 +503,7 @@ video{
   padding-bottom: 100px;
   height: 1300px;
   position: relative;
+  z-index: 1000px;
 }
 .review h1 {
   margin: 100px 0 80px 0;
@@ -567,6 +570,7 @@ video{
   text-align: center;
   background: #f3f3f3;
   position: relative;
+  z-index: 1000px;
 }
 .team h1 {
   margin: 10px 0 100px 0;
