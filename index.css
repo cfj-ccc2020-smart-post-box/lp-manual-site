@@ -582,9 +582,7 @@ video{
 .mem-up .to-margin img{
   width: 100%
 }
-.mem-bottom img{
-  width: 100%
-}
+
 .mem-up{
   display: flex;
 }
@@ -628,7 +626,7 @@ video{
   top: 0;
   left: 0;
   width: 100%;
-  height: 98%;
+  height: 99%;
   background-color: #fff;
   color: #000;
   content: "\ARinkei \Aハードウェア担当";
@@ -644,7 +642,7 @@ video{
   top: 0;
   left: 0;
   width: 100%;
-  height: 98%;
+  height: 99%;
   content: "\AWaricoma \Aソフトウェア担当";
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
@@ -660,7 +658,7 @@ video{
   top: 0;
   left: 0;
   width: 100%;
-  height: 98%;
+  height: 99%;
   content: "\A Anjyu Style \Aデザイナー担当";
   white-space: pre;
   font-family: "Font Awesome 5 Free";
@@ -676,7 +674,7 @@ video{
   top: 0;
   left: 0;
   width: 100%;
-  height: 98%;
+  height: 99%;
   background-color: #fff;
   color: #000;
   content: "\A Ryuji \Aフロントエンド担当";
@@ -692,7 +690,7 @@ video{
   top: 0;
   left: 0;
   width: 100%;
-  height: 98%;
+  height: 99%;
   background-color: #fff;
   color: #000;
   content: "\A YURI យូរី \Aマネジメント担当";
@@ -712,15 +710,14 @@ video{
 }
 .icon{
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   right: 0;
   display: flex;
   font-size: 50px;
   justify-content: space-between;
-  margin: 40px 20px 0 0;
+  margin: 40px 20px 10px 0;
   opacity: 1;
   color: #fff;
-  margin-bottom: 10px;
 }
 .icon{
   list-style: none;
