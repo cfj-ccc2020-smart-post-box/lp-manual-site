@@ -791,16 +791,17 @@ div.yuri ul.icon li:hover {
 }
 
 .choice-box{
-  margin: 50px;
-  margin-left: 100px;
+  margin: 200px 50px 50px 150px;
   background: #ffffff;
   border-radius: 5%;
   padding: 50px;
+  width: 1000px;
 }
 
 .para{
   display: flex;
-  margin: 50px;
+  margin: 50px 20px 50px 80px;
+  width: 800px;
 }
 
 .b1{
@@ -1049,7 +1050,7 @@ table td {
 
 #text4{
   background: #F1E987;
-  height: 470px;
+  height: 484px;
   text-align: left;
   padding: 30px;
 }
