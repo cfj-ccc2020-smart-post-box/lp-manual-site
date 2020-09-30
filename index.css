@@ -186,8 +186,8 @@ video{
   position: absolute;
   background: #FFF9A4;
   border-radius: 25px;
-  top: 300px;
-  right: 200px;
+  top: -50px;
+  right: 290px;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .4));
   text-align: left;
 }
@@ -207,8 +207,8 @@ video{
   position: absolute;
   background: #fff;
   border-radius: 25px;
-  top: 400px;
-  left: 500px;
+  top: 100px;
+  left: 300px;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .4));
   text-align: left;
 }
@@ -228,8 +228,8 @@ video{
   position: absolute;
   background: #FFF9A4;
   border-radius: 25px;
-  top: 500px;
-  right: 200px;
+  top: 230px;
+  right: 300px;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .4));
   text-align: left;
 }
@@ -806,7 +806,7 @@ div.yuri ul.icon li:hover {
 }
 
 .choice-box{
-  margin: 200px 50px 50px 150px;
+  margin: 0px 50px 50px 150px;
   background: #ffffff;
   border-radius: 5%;
   padding: 50px;
@@ -980,6 +980,9 @@ table td {
     margin-inline-end: 0px
 }
 
+#exp{
+  margin-top: 100px;
+}
 #totop{
   margin-left: 100px;
 }
@@ -991,6 +994,7 @@ table td {
 /* 制作ストーリー */
 .mk-story{
   margin: 200px;
+  margin-top: 0;
 }
 .story-1{
   display: flex;
@@ -1197,4 +1201,9 @@ table td {
   position: absolute;
   right: 15px;
   bottom: 0;
+}
+
+#story-p{
+  margin-top: 200px;
+  font-size: 20px;
 }
