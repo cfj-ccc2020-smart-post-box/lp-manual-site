@@ -5,7 +5,7 @@ html{
 }
 body{
   margin: 0;
-  font-family: "Noto Sans", "Helvetica Neue", sans-serif bold,Arial, Helvetica;
+  font-family: "Noto Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 a{
   text-decoration: none;
@@ -55,6 +55,9 @@ video{
   top: 160px;
   left: 30px;
 }
+#to-post{
+  font-size: 13px;
+}
 .menubar li{
   list-style: none;
 }
@@ -88,6 +91,7 @@ video{
   position: fixed;
   text-align: center;
   padding: 15px;
+  z-index: -800;
 }
 .proper p{
   font-size: 20px;
@@ -113,7 +117,8 @@ video{
   margin-top: 300px;
   text-align: center;
   z-index: 1000;
-  height: 500px;
+  height: 100%;
+  width: 100%;
   background: #FBF9FA;
 }
 .post-it h1{
@@ -133,6 +138,10 @@ video{
   position: absolute;
   top: 25%;
   right: 20px;
+}
+.manga img{
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 /* スマートポストとは */
@@ -583,7 +592,7 @@ video{
   background:#F0E14C;
   padding: 107px 109px;
   width: 13%;
-  height: 146px;
+  height: 141px;
 }
 .arrow p{
   font-size: 10px;
@@ -652,7 +661,7 @@ video{
   left: 0;
   width: 100%;
   height: 98%;
-  content: "\A Anjyu Style \Aデザイナー";
+  content: "\A Anjyu Style \Aデザイナー担当";
   white-space: pre;
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
@@ -711,6 +720,7 @@ video{
   margin: 40px 20px 0 0;
   opacity: 1;
   color: #fff;
+  margin-bottom: 10px;
 }
 .icon{
   list-style: none;
@@ -849,9 +859,8 @@ button{
 
 .result{
   border: 3px solid #F2E744;
-  margin-top: 100px;
+  margin: 100px auto auto 225px;
   width: 70%;
-  margin-left: 200px;
   padding-bottom: 50px;
 }
 
@@ -966,18 +975,18 @@ table td {
   margin-left: 100px;
 }
 
+/* 制作ストーリー */
 .mk-story{
   margin: 200px;
 }
-
 .story-1{
   display: flex;
+  position: relative;
 }
 #text1{
-  background: #F1E987
-  ;
-  width: 60%;
-  height: 300px;
+  background: #F1E987;
+  width: 100%;
+  height: 435px;
   text-align: left;
   padding: 20px;
 }
@@ -996,10 +1005,11 @@ table td {
 
 .story-2{
   display: flex;
+  position: relative;
 }
 #text2{
   width: 580px;
-  height: 550px;
+  height: 480px;
   background: #F1E987;
 }
 #text2 p{
@@ -1015,9 +1025,9 @@ table td {
 #text3{
   background: #F1E987;
   width: 460px;
-  height: 810px;
+  height: 690px;
   text-align: left;
-  padding: 30px;
+  padding: 30px 30px 50px 30px;
 }
 #text3 h3{
   font-size: 24px;
@@ -1030,6 +1040,7 @@ table td {
 
 .story-3{
   display: flex;
+  position: relative;
 }
 
 .st3-left video{
@@ -1041,7 +1052,7 @@ table td {
 
 #text4{
   background: #F1E987;
-  height: 484px;
+  height: 470px;
   text-align: left;
   padding: 30px;
 }
@@ -1070,6 +1081,7 @@ table td {
 
 #story-4{
   display: flex;
+  position: relative;
 }
 
 #story-4 video{
@@ -1079,6 +1091,7 @@ table td {
 
 #story-5{
   display: flex;
+  position: relative;
 }
 
 #story-5 img{
@@ -1110,4 +1123,65 @@ table td {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 0;
+}
+.mk-story a{
+  color: #000;
+  text-decoration: underline;
+}
+.mk-story span{
+  font-weight: bold;
+}
+.num{
+  z-index: 500;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #F1E987;
+  text-align:center;
+  line-height: 30px;
+}
+#num1{
+  position: absolute;
+  right: 25px;
+  bottom: 10px;
+}
+#num2{
+  position: absolute;
+  bottom: 480px;
+  left: 10px;
+}
+#num3{
+  position: absolute;
+  top:0;
+  left: 10px;
+}
+#num4{
+  position: absolute;
+  top: 220px;
+  right: 10px;
+}
+#num5{
+  position: absolute;
+  bottom: 0;
+  left: 600px;
+}
+#num6{
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+#num7{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+#num8{
+  position: absolute;
+  left: 20px;
+  top: 0px;
+}
+#num9{
+  position: absolute;
+  right: 15px;
+  bottom: 0;
 }
