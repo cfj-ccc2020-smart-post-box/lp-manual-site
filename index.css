@@ -360,11 +360,11 @@ video{
 }
 .find-model{
   color: black;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   display: inline;
 }
 .find-model:hover{
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .arrows{
   position: relative;
