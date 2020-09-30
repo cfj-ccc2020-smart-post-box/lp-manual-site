@@ -51,7 +51,7 @@ video{
   text-align: center;
   position: fixed;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .1));
-  z-index: 1000;
+  z-index: 3000;
   top: 160px;
   left: 30px;
 }
@@ -91,7 +91,7 @@ video{
   position: fixed;
   text-align: center;
   padding: 15px;
-  z-index: 1;
+  z-index: 1px;
 }
 .proper p{
   font-size: 20px;
@@ -122,7 +122,7 @@ video{
   height: 100%;
   width: 100%;
   background: #FBF9FA;
-  z-index: 100;
+  z-index: 1000px;
   position: relative;
 }
 .post-it h1{
@@ -172,7 +172,7 @@ video{
   position: relative;
   height: 1700px;
   background: #F3F3F3;
-  z-index: 100;
+  z-index: 1000px;
 }
 .comment{
   display: block;
@@ -303,7 +303,7 @@ video{
   background: #FBF9FA;
   padding-bottom: 100px;
   position: relative;
-  z-index: 100;
+  z-index: 1000px;
 }
 .price h1 {
   margin: 100px 0 80px 0;
@@ -424,7 +424,7 @@ video{
   text-align: center;
   padding-bottom: 100px;
   position: relative;
-  z-index: 100;
+  z-index: 1000px;
 }
 .story h1 {
   margin: 100px 0 80px 0;
@@ -503,7 +503,7 @@ video{
   padding-bottom: 100px;
   height: 1300px;
   position: relative;
-  z-index: 100;
+  z-index: 1000px;
 }
 .review h1 {
   margin: 100px 0 80px 0;
@@ -570,7 +570,7 @@ video{
   text-align: center;
   background: #f3f3f3;
   position: relative;
-  z-index: 100;
+  z-index: 1000px;
 }
 .team h1 {
   margin: 10px 0 100px 0;
