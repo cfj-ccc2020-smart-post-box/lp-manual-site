@@ -91,7 +91,7 @@ video{
   position: fixed;
   text-align: center;
   padding: 15px;
-  z-index: -800;
+  z-index: 1;
 }
 .proper p{
   font-size: 20px;
@@ -103,13 +103,15 @@ video{
 
 .proper a{
   text-decoration: underline;
-  cursor: pointer;
+  padding-top: 500px;
+  margin-top: -500px;
 }
 
 /* コンテンツ */
 .center{
   margin-left: 300px;
   margin-right: 50px;
+  
 }
 
 /* 漫画 */
@@ -120,6 +122,8 @@ video{
   height: 100%;
   width: 100%;
   background: #FBF9FA;
+  z-index: 100;
+  position: relative;
 }
 .post-it h1{
   padding: 20px 30px;
@@ -168,10 +172,13 @@ video{
   position: relative;
   height: 1700px;
   background: #F3F3F3;
+  z-index: 100;
 }
 .comment{
   display: block;
   height: 400px;
+  z-index: 3;
+  position: relative;
 }
 #com-1{
   width: 200px;
@@ -295,6 +302,8 @@ video{
   text-align: center;
   background: #FBF9FA;
   padding-bottom: 100px;
+  position: relative;
+  z-index: 100;
 }
 .price h1 {
   margin: 100px 0 80px 0;
@@ -414,6 +423,8 @@ video{
   background: #f3f3f3;
   text-align: center;
   padding-bottom: 100px;
+  position: relative;
+  z-index: 100;
 }
 .story h1 {
   margin: 100px 0 80px 0;
@@ -491,6 +502,8 @@ video{
   background: #FBF9FA;
   padding-bottom: 100px;
   height: 1300px;
+  position: relative;
+  z-index: 100;
 }
 .review h1 {
   margin: 100px 0 80px 0;
@@ -556,6 +569,8 @@ video{
   padding-top: 100px;
   text-align: center;
   background: #f3f3f3;
+  position: relative;
+  z-index: 100;
 }
 .team h1 {
   margin: 10px 0 100px 0;

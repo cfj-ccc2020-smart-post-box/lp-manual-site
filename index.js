@@ -1,9 +1,11 @@
 jQuery(function() {
+  
   let top = $('#to-top');
   top.click(function () {
     $('body, html').animate({ scrollTop: 0 }, 500) //0.5秒かけてトップへ戻る
     return false;
   });
+  
 
   const toPost = $('#to-post');
   toPost.click(() => {
