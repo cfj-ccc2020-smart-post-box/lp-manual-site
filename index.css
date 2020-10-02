@@ -87,15 +87,9 @@ video{
 .proper{
   width: 200px;
   height: 200px;
-<<<<<<< HEAD
-  top: 32%;
-  left: 20%;
-  position: absolute;
-=======
   top: 22%;
   left: 20%;
   position: fixed;
->>>>>>> 國部くんの更新
   text-align: center;
   padding: 15px;
 }
@@ -109,12 +103,7 @@ video{
 
 .proper a{
   text-decoration: underline;
-<<<<<<< HEAD
-  padding-top: 500px;
-  margin-top: -500px;
-=======
   cursor: pointer;
->>>>>>> 國部くんの更新
 }
 
 /* コンテンツ */
@@ -187,11 +176,6 @@ video{
 .comment{
   display: block;
   height: 400px;
-<<<<<<< HEAD
-  z-index: 3;
-  position: relative;
-=======
->>>>>>> 國部くんの更新
 }
 #com-1{
   width: 200px;
@@ -1054,15 +1038,9 @@ table td {
 #text3{
   background: #F1E987;
   width: 460px;
-<<<<<<< HEAD
-  height: 690px;
-  text-align: left;
-  padding: 30px 30px 50px 30px;
-=======
   height: 810px;
   text-align: left;
   padding: 30px;
->>>>>>> 國部くんの更新
 }
 #text3 h3{
   font-size: 24px;
