@@ -75,7 +75,7 @@ video{
   width: 100%;
   height: 780px;
   position: absolute;
-  
+
 }
 .headline{
   position: fixed;
@@ -87,9 +87,15 @@ video{
 .proper{
   width: 200px;
   height: 200px;
+<<<<<<< HEAD
   top: 32%;
   left: 20%;
   position: absolute;
+=======
+  top: 22%;
+  left: 20%;
+  position: fixed;
+>>>>>>> 國部くんの更新
   text-align: center;
   padding: 15px;
 }
@@ -103,15 +109,19 @@ video{
 
 .proper a{
   text-decoration: underline;
+<<<<<<< HEAD
   padding-top: 500px;
   margin-top: -500px;
+=======
+  cursor: pointer;
+>>>>>>> 國部くんの更新
 }
 
 /* コンテンツ */
 .center{
   margin-left: 300px;
   margin-right: 50px;
-  
+
 }
 
 /* 漫画 */
@@ -177,8 +187,11 @@ video{
 .comment{
   display: block;
   height: 400px;
+<<<<<<< HEAD
   z-index: 3;
   position: relative;
+=======
+>>>>>>> 國部くんの更新
 }
 #com-1{
   width: 200px;
@@ -490,7 +503,7 @@ video{
   height: 35px;
   top: -15px;
   left: 226px;
-  
+
 }
 .phone{
   margin-top: 50px;
@@ -592,7 +605,7 @@ video{
 }
 .to-margin{
   width: 33%;
-  
+
 }
 .mem-up .to-margin img{
   width: 100%
@@ -641,7 +654,7 @@ video{
   top: 0;
   left: 0;
   width: 100%;
-  height: 99%;
+  height: 98%;
   background-color: #fff;
   color: #000;
   content: "\ARinkei \Aハードウェア担当";
@@ -657,7 +670,7 @@ video{
   top: 0;
   left: 0;
   width: 100%;
-  height: 99%;
+  height: 98%;
   content: "\AWaricoma \Aソフトウェア担当";
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
@@ -673,8 +686,8 @@ video{
   top: 0;
   left: 0;
   width: 100%;
-  height: 99%;
-  content: "\A Anjyu Style \Aデザイナー担当";
+  height: 98%;
+  content: "\A Anjyu Style \Aデザイナー";
   white-space: pre;
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
@@ -689,7 +702,7 @@ video{
   top: 0;
   left: 0;
   width: 100%;
-  height: 99%;
+  height: 98%;
   background-color: #fff;
   color: #000;
   content: "\A Ryuji \Aフロントエンド担当";
@@ -705,7 +718,7 @@ video{
   top: 0;
   left: 0;
   width: 100%;
-  height: 99%;
+  height: 98%;
   background-color: #fff;
   color: #000;
   content: "\A YURI យូរី \Aマネジメント担当";
@@ -874,6 +887,7 @@ button{
   border: 3px solid #F2E744;
   margin: 100px auto auto 225px;
   width: 70%;
+  margin-left: 200px;
   padding-bottom: 50px;
 }
 
@@ -962,7 +976,7 @@ table td {
 }
 .footer ul{
   display: flex;
-  
+
 }
 
 
@@ -991,19 +1005,18 @@ table td {
   margin-left: 100px;
 }
 
-/* 制作ストーリー */
 .mk-story{
   margin: 200px;
-  margin-top: 0;
 }
+
 .story-1{
   display: flex;
-  position: relative;
 }
 #text1{
-  background: #F1E987;
-  width: 100%;
-  height: 435px;
+  background: #F1E987
+  ;
+  width: 60%;
+  height: 300px;
   text-align: left;
   padding: 20px;
 }
@@ -1022,11 +1035,10 @@ table td {
 
 .story-2{
   display: flex;
-  position: relative;
 }
 #text2{
   width: 580px;
-  height: 480px;
+  height: 550px;
   background: #F1E987;
 }
 #text2 p{
@@ -1042,9 +1054,15 @@ table td {
 #text3{
   background: #F1E987;
   width: 460px;
+<<<<<<< HEAD
   height: 690px;
   text-align: left;
   padding: 30px 30px 50px 30px;
+=======
+  height: 810px;
+  text-align: left;
+  padding: 30px;
+>>>>>>> 國部くんの更新
 }
 #text3 h3{
   font-size: 24px;
@@ -1057,7 +1075,6 @@ table td {
 
 .story-3{
   display: flex;
-  position: relative;
 }
 
 .st3-left video{
@@ -1098,7 +1115,6 @@ table td {
 
 #story-4{
   display: flex;
-  position: relative;
 }
 
 #story-4 video{
@@ -1108,7 +1124,6 @@ table td {
 
 #story-5{
   display: flex;
-  position: relative;
 }
 
 #story-5 img{
@@ -1140,70 +1155,4 @@ table td {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 0;
-}
-.mk-story a{
-  color: #000;
-  text-decoration: underline;
-}
-.mk-story span{
-  font-weight: bold;
-}
-.num{
-  z-index: 500;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: #F1E987;
-  text-align:center;
-  line-height: 30px;
-}
-#num1{
-  position: absolute;
-  right: 25px;
-  bottom: 10px;
-}
-#num2{
-  position: absolute;
-  bottom: 480px;
-  left: 10px;
-}
-#num3{
-  position: absolute;
-  top:0;
-  left: 10px;
-}
-#num4{
-  position: absolute;
-  top: 220px;
-  right: 10px;
-}
-#num5{
-  position: absolute;
-  bottom: 0;
-  left: 600px;
-}
-#num6{
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-}
-#num7{
-  position: absolute;
-  top: 10px;
-  right: 20px;
-}
-#num8{
-  position: absolute;
-  left: 20px;
-  top: 0px;
-}
-#num9{
-  position: absolute;
-  right: 15px;
-  bottom: 0;
-}
-
-#story-p{
-  margin-top: 200px;
-  font-size: 20px;
 }
